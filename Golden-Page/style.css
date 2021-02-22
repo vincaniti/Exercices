@@ -81,12 +81,30 @@ header section#welcome #intro p {
 }
 
 /* ****** MAIN ****** */
+/* --- SERVICES --- */
 main section#services .content {
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
+   margin : 5rem 10rem;
 }
-main section#services .item p {
-    font-size: 0.4rem;
+main section#services .item  {
+    text-align: center;
+    width: 30rem;
+    margin : 0;
 }
-
+/* FIXME = bordure ecrase l'image */
+main section#services .item img {
+    border: solid #FEDD6B 3px;
+    padding: 1rem;
+    border-radius: 999em;
+}
+main section#services .item h5 {
+    font-size: 1.3rem;
+}
+/* --- PORTFOLIO --- */
+main section#portfolio div#portfolio-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 /* ****** FOOTER ****** */
