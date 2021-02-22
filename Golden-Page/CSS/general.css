@@ -1,0 +1,25 @@
+/* ------ bakcground ------ */
+.bg-light {
+    background-color: rgb(255, 255, 255);
+}
+.bg-lightgrey {
+    background-color: lightgray;
+}
+.bg-dark {
+    background-color: rgb(75, 72, 72);
+}
+/* ---- font ---- */
+h1 {
+    font-family: 'Wisdom Script Regular';
+}
+h3, a {
+    font-family: 'Montserrat', sans-serif;
+}
+h4, h2 {
+    font-family : 'Droid Serif' ;
+}
+p {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(119, 119, 119);
+    font-weight: 200;
+}
