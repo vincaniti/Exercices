@@ -119,7 +119,7 @@ main section#map {
 main section#map iframe {
     width: 100%;
     height: 100%;
-    box-shadow: 0px -1px 3px 2px  rgb(218, 213, 213);;
+    box-shadow: 0px -1px 3px 2px  rgb(218, 213, 213);
 }
 /* -- Formulaire -- */
 main section#form {
@@ -131,7 +131,7 @@ main section#form form {
     display: inline-block;
     color: var(--dark);
     width: 40rem;
-    height: 63rem;
+    height: 67rem;
     border : solid 1px var(--light);
     border-radius: 5px;
 }
@@ -150,6 +150,11 @@ main section#form form span {
     color: var(--light);
     padding : 0.5rem;
     margin-right: 0.4rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
 }
 main section#form form div p.label {
     color: var(--blue);
