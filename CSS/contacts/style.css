@@ -17,6 +17,9 @@
 body {
     font-family: var(--font);
 }
+h1, h2, h3, h4 {
+    font-family: var(--font-headings);
+}
 body a {
     text-decoration: none;
     color: var(--darkblue);
@@ -64,7 +67,7 @@ section#logo > div h1 {
 }
 /* -- navbar -- */
 section#logo nav {
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
 }
 section#logo nav ul {
@@ -98,8 +101,8 @@ main section p {
     padding-left: 5rem ;
 }
 main section hr {
-    margin-left: 5rem;
-    margin-right: 100rem;
+    margin-left: 6%;
+    margin-right: 65%;
 }
 main section div#contact {
     margin-left: 8rem;
@@ -189,7 +192,7 @@ main section#form form div#send button:hover{
     cursor: pointer ;
 }
 main section#form form div#send div.check-1 {
-    display: inline-block ;
+    /* display: inline-block ; */
     float: right;
 }
 main section#form form div#send div.check-1 input:hover {
