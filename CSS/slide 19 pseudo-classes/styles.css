@@ -1,0 +1,31 @@
+        /* Pseudo-classe */
+        a {
+            color : pink;
+        }
+        a:hover {
+            color : yellow ;
+            font-size: 1.5rem;
+        }
+        a:visited{
+            color : rgb(70, 10, 235); 
+        }
+        p:hover {
+            background-color: red;
+        }
+        /* Pseudo-élément */
+        div p::first-letter {
+            font-size: 3rem;
+        }
+        body ::selection {
+            background-color: yellow;
+        }
+        /* insérer image en CSS */
+        h1::before {
+            content: "";
+            background-image : url(https://bitsofco.de/content/images/2017/03/icon_256.png)  ;
+            margin-right: 6px;
+            height: 16px;
+            width: 16px;
+            display: inline-block;
+            background-size: cover; 
+        }

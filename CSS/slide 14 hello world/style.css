@@ -1,0 +1,17 @@
+/* color du document */
+body {
+    color: #444;
+}
+
+/* color title h1 h2 */
+h1, h2 {
+    color : #32CBDD;
+}
+/* color link */
+a {
+    color:#028DB6 ;
+}
+/* delete txt-decoration abbr */
+abbr {
+    text-decoration: none;
+}

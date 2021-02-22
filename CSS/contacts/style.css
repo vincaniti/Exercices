@@ -1,0 +1,211 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url("./css/bg-color.css");
+@import url("./css/sprite.css");
+@import url("./css/text-format.css");
+
+/* ------ VARIABLES ------ */
+:root {
+    --font : 'Open Sans', sans-serif;
+    --font-headings : 'Abel', sans-serif;
+    --dark : rgb(37, 37, 37);
+    --light : lightgrey;
+    --blue : #7e98a7;
+    --darkblue : #5e7481;
+}
+
+/* ******* GENERAL ******* */
+body {
+    font-family: var(--font);
+}
+body a {
+    text-decoration: none;
+    color: var(--darkblue);
+    list-style: none;
+    
+}
+body a:hover {
+    color: var(--blue);
+}
+/* ******* HEADER ******* */
+/* -- Contact + Sprite */
+header section#head{
+    height: 40px;
+}
+header section#head div {
+    float: right;
+    padding-top: 4px;
+    padding-right: 4px;
+    margin-right: 0.8rem;
+} 
+header section#head a {
+    line-height: 40px;
+    margin-left: 0.8rem;
+}
+/* -- logo -- */
+section#logo {
+    content: "";
+    background-image: url(./img/bg-header.jpg);
+    background-size: cover;
+}
+section#logo > div {
+    display: inline-block;
+    color: var(--light);
+}
+section#logo > div img {
+    background-color: var(--dark);
+    padding: 3px;
+    border: var(--light) solid 1px;
+    margin: 2rem;
+    float: left;
+}
+section#logo > div h1 {
+    display: inline;
+    line-height: 175px;
+}
+/* -- navbar -- */
+section#logo nav {
+    display: inline-block;
+    float: right;
+}
+section#logo nav ul {
+    background-color: var(--light);
+    padding: 1rem 1.5rem;
+    border-radius: 0.3rem;
+    margin-right: 3rem;
+    margin-top: 13.5rem;
+}
+section#logo nav ul a {
+    display: inline-block;
+    color: var(--dark);
+    padding-right: 1rem; 
+    padding-left: 1rem;
+}
+section#logo nav ul a:hover{
+    color: var(--blue);
+}
+/* ******* MAIN ******* */
+/* -- Contactez moi */
+main > section {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+main section h1 {
+    margin-top: 0;
+    font-size: 3.5rem;
+    padding-left: 5rem;
+}
+main section p {
+    padding-left: 5rem ;
+}
+main section hr {
+    margin-left: 5rem;
+    margin-right: 100rem;
+}
+main section div#contact {
+    margin-left: 8rem;
+}
+main section div#contact p {
+    padding-left: 0;
+}
+/* -- map -- */
+main section#map {
+    padding : 0;
+    height: 25rem;
+    box-shadow: var(--dark) 2px;
+}
+main section#map iframe {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px -1px 3px 2px  rgb(218, 213, 213);;
+}
+/* -- Formulaire -- */
+main section#form {
+    text-align: center;
+}
+main section#form form {
+    background-color: var(--light);
+    margin: auto;
+    display: inline-block;
+    color: var(--dark);
+    width: 40rem;
+    height: 63rem;
+    border : solid 1px var(--light);
+    border-radius: 5px;
+}
+main section#form form h2 {
+    background-color: var(--blue);
+    color: white;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+main section#form form span {
+    border: var(--light) solid 0.2rem;
+    border-radius: 50%;
+    background-color: var(--blue);
+    color: var(--light);
+    padding : 0.5rem;
+    margin-right: 0.4rem;
+}
+main section#form form div p.label {
+    color: var(--blue);
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    font-weight: bolder;
+}
+main section#form form div.form-txt  {
+    text-align: left;
+    padding-left: 5rem;
+}
+main section#form form div.form-txt input{
+    height: 1.5rem;
+}
+main section#form form div.form-txt input, textarea {
+    width: 30rem;
+    margin-right: 80px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border : solid 1px white;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 1px var(--dark);
+
+}
+/* -- button + checkbox */
+main section#form form div#send button {
+    float: left;
+    margin-left: 3rem;
+    background-color: var(--blue);
+    color: var(--light);
+    border-radius: 3px;
+    height: 2rem;
+    border-color: var(--blue);
+    border-style: groove;
+}
+main section#form form div#send button:hover{
+    border-style: inset;
+    cursor: pointer ;
+}
+main section#form form div#send div.check-1 {
+    display: inline-block ;
+    float: right;
+}
+main section#form form div#send div.check-1 input:hover {
+    transform-style: preserve-3d;
+    cursor: pointer ;
+}
+main section#form form div.check-1 p {
+    font-size: 0.8rem;
+    margin-left: 0;
+    padding-left: 0;
+    display: inline-block;
+    margin-right: 3rem;
+}
+/* ******* FOOTER ******* */
+footer p {
+    margin : 0 ;
+    text-align: center;
+    font-size: 0.9rem;
+}

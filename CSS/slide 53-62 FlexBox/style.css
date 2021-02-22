@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.social {
+    background-color: lightcyan;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgrey;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    height: 400px;
+    margin: 0 20%;
+}
+
+.social div {
+    /*Pour que les liens réagissent en block*/
+    display: block;
+    width: 84px;
+    height: 84px;
+}
+
+
+div.facebook {
+    background: url(social-sprite.png) 0px -84px;
+    /* order: 1; */
+}
+
+div.twitter {
+    background: url(social-sprite.png) 252px -84px;
+    /* align-self: flex-end; */
+    /* order: 2; */
+}
+
+div.youtube {
+    background: url(social-sprite.png) 84px -84px;
+    /* order: 3; */
+}
+
+div.linkedin {
+    background: url(social-sprite.png) 588px -84px;
+    /* order: 4; */
+}

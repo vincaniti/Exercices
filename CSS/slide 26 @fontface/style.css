@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "MaSuperPolice" ;
+    src: url(font/MaSuperPolice.ttf);
+}
+h1 {
+    font-family: MaSuperPolice, serif, cursive;
+}

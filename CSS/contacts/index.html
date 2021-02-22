@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- ------ HEADER ------ -->
+    <header>
+        <section id="head" class="bg-black">
+            <!-- CONTACTS + SPRITE -->
+            <a href="mailto:rmitchum@monbeaucheval.com">rmitchum@monbeaucheval.com</a>
+            <div class="social">
+                <a href="" class="facebook"></a>
+                <a href="" class="twitter"></a>
+                <a href="" class="youtube"></a>
+                <a href="" class="linkedin"></a>
+            </div>
+        </section>
+        <!-- LOGO + NAVBAR -->
+        <section id="logo" class="bg-light">
+            <!-- Logo -->
+            <div>
+                <img src="./img/logo-header.jpg" alt="photo robert">
+                <h1>Robert Mitchum</h1>
+            </div>
+            <!-- Navbar -->
+            <nav>
+                <ul>
+                    <a href=""><li>Accueil</li></a>
+                    <span>|</span>
+                    <a href=""><li>Compétences</li></a>
+                    <span>|</span>
+                    <a href=""><li>Références</li></a>
+                    <span>|</span>
+                    <a href="./index.html"><li>Contacts</li></a>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!-- -------- MAIN -------- -->
+    <main>
+        <!-- --- CONTACTEZ-MOI -->
+        <section class="bg-light">
+            <h1>Contactez-moi</h1>
+            <p>N'hésiter pas à me contacter en utilisant les coordonées ci-dessous ou le <a href="#form"> formulaire de contact</a>.</p>
+            <hr>
+            <div id="contact">
+                <h2>Robert Mitchum</h2>
+                <p>rue du cheval mort</p>
+                <p>43666 Mal-Baureau</p>
+                <br>
+                <adress>
+                    <a href="mailto:rmitchum@monbeaucheval.com">rmitchum@monbeaucheval.com</a><br>
+                    <a href="tel:+33612345678">0612345678</a>
+                </adress>
+            </div>
+        </section>
+        <!-- --- MAP --- -->
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1367981.8730651848!2d-2.8504687!3d47.9588258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f7d360808d15cb%3A0x9d09348cac18f391!2s15100%20Saint-Flour!5e0!3m2!1sfr!2sfr!4v1613725194380!5m2!1sfr!2sfr" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        <!-- --- FORMULAIRE --- -->
+        <section id="form" class="bg-dark">
+            <form action="#" method="POST">
+                <h2>Utilisez le formulaire</h2>
+                <div>
+                    <p class="label"><span class="number">1</span>Nom et adresse</p>
+                    <div class="form-txt">
+                        <label for="name">Votre nom complet</label><br>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-txt">
+                        <label for="adress">Votre adresse</label><br>
+                        <input type="text" name="adress" id="adress">
+                    </div>
+                </div>
+                <div >
+                    <p class="label"> <span class="number">2</span>E-mail et téléphone</p>
+                    <div class="form-txt">
+                        <label for="mail">Votre e-mail</label><br>
+                        <input type="email" id="mail" name="mail">
+                    </div>
+                    <div class="form-txt"> 
+                        <label for="tel">Numéro de téléphone</label><br>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                </div>
+                <div >
+                    <p class="label"><span class="number">3</span>Message</p>
+                    <div class="form-txt">
+                        <label for="message">Votre message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div id="send">
+                    <button>Envoyer</button>
+                    <div class="check-1">
+                        <input type="checkbox" name="conditions" id="check">
+                        <p>J'accepte les conditions</p>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- -------- FOOTER -------- -->
+    <footer class="bg-dark">
+        <p><a href="#logo">Robert Mitchum</a> 2019 © Tous droits réservés</p>
+    </footer>
+</body>
+</html>

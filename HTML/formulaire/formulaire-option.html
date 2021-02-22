@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Option Select</title>
+</head>
+<body>
+    <!-- Début formulaire -->
+    <form action="#" method="POST">
+        <div>
+            <!-- titre formulaire -->
+            <label for="country">Vos pays préférés</label>
+            <br>
+            <select id="country" name="country">
+                <!-- premier groupe option -->
+                <optgroup label="Amérique">
+                    <option value="usa">Etats-Unis</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexique">Méxique</option>
+                </optgroup>
+                <!-- deuxième groupe option -->
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="belgique">Belgique</option>
+                    <!-- spain est annulé (ne peut plus etre choisit) -->
+                    <option disabled value="spain">Espagne</option>
+                </optgroup>
+                <!-- troisième groupe option -->
+                <optgroup label="Afrique">
+                    <option value="maroc">Maroc</option>
+                    <option value="sudafrica">Afrique du Sud</option>
+                    <option value="kenya">Kenya</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <!-- boutton soumettre -->
+        <div>
+            <button type="submit" value="submit">Envoyer</button>
+        </div>
+    </form>
+</body>
+</html>

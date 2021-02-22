@@ -1,0 +1,71 @@
+@import url(reset.css);
+
+body {
+    background-color: lightyellow;
+}
+
+#rectangle-rouge {
+    height: 100px;
+    background-color: red;
+}
+
+#rectangle-vert {
+    /* position: relative; */
+    background-color: green;
+    width: 100%;
+    height: 350px;
+    ;
+}
+
+#titre {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 200px;
+    top: 150px;
+}
+
+
+main {
+    background-color: lightblue;
+    margin: 0;
+    padding: 50px;
+    height: 900px;
+}
+
+/* Le menu */
+li {
+    display: inline-block;
+    background-color: aqua;
+    padding: 1.3rem;
+    font-size: 1rem;
+    border: 0.2rem solid blue;
+    text-align: center;
+}
+
+/* La barre de cookies */
+#cookie {
+    background: purple;
+    color: white;
+    font-size: 1.6rem;
+    ;
+    line-height: 3rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#cookies-close {
+    font-family: cursive;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}

@@ -1,0 +1,47 @@
+/* lien img sprite + marge */
+div.social a {
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    box-shadow: 3px 3px 12px rgb(87, 84, 84);
+    margin-right: 6px;
+    background-image: url(./social-sprite.png);
+    transition: background-position .3s ease-in-out;
+}
+.social a:last-child{
+    margin-right: 0;
+}
+/* sprite grisé */
+.facebook {
+    background-position: left 0 bottom 0;
+    
+}
+.twitter {
+    background-position: right -168 bottom 0;
+}
+.youtube {
+    background-position: right 0 bottom 0;
+}
+.linkedin {
+    background-position: left -336 bottom 0;
+}
+.google {
+    background-position: left -252px bottom 0;
+}
+/* sprite hover color */
+.facebook:hover {
+    background-position: left 0 bottom -84;
+    
+}
+.twitter:hover {
+    background-position: right -168 bottom -84;
+}
+.youtube:hover {
+    background-position: right 0 bottom -84;
+}
+.linkedin:hover {
+    background-position: left -336 bottom -84;
+}
+.google:hover {
+    background-position: left -252px bottom -84px;
+}

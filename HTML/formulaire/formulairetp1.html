@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire TP 1</title>
+</head>
+<body>
+    <!-- Début du premier formulaire -->
+    <form action="#" method="POST">
+        <!-- pseudonyme -->
+        <div>
+            <label for="pseudo">Votre pseudonyme</label>
+            <input type="text" name="pseudo" id="pseudo">
+        </div>
+        <!-- presentation -->
+        <div>
+            <label for="presentation">Petite présentation</label>
+            <br>
+            <textarea name="presentation" id="presentation" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Bouton radio -->
+        <div>
+            <p>Genre : </p>
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female">Féminin</label>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Féminin</label>
+        </div>
+        <br>
+        <!-- bouton envoie et annulé -->
+        <div>
+            <button type="submit" value="submit">Envoyer</button>
+            <input type="reset" value="Annuler">
+        </div>
+    </form>
+</body>
+</html>

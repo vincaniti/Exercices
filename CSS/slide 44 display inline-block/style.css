@@ -1,0 +1,22 @@
+li {
+    display: inline-block;
+    background-color: aqua;
+    padding: 1.3em;
+    border: 0.2em solid blue;
+}
+
+.item1 {
+    width: 125px;
+}
+
+.item2 {
+    width: 100px;
+}
+
+.item3 {
+    width: 150px;
+}
+
+.item4 {
+    width: 75px;
+}

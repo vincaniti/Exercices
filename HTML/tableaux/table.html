@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableaux</title>
+    <style>
+        main {
+            display: flex;
+        }
+        #table1  {
+            margin-left: auto;
+        }
+        #table2 {
+            margin-right: auto;
+        }
+        table {
+            border-collapse: collapse;
+        }
+
+        thead {
+            font-size: bold;
+            background-color: indigo;
+            color: white;
+        }
+
+        td {
+            padding: 10px;
+            border: solid 1px black;
+            text-align: center;
+        }
+        th {
+            padding: 10px;
+            border: solid 1px rgb(0, 0, 0);
+        }
+
+        caption {
+            font-weight: lighter;
+            font-style: italic;
+            color: rgb(119, 47, 115);
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Tableau 1 -->
+        <div id="table1">
+            <table>
+                <caption>La liste des spécialités culinaire par ville</caption>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th colspan="2">Spécialités</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Toulouse</td>
+                            <td>Cassoulet</td>
+                            <td>Jambon cru</td>
+                        </tr>
+                        <tr>
+                            <td>Strasbourg</td>
+                            <td colspan="2">Choucroute</td>
+                        </tr>
+                        <tr>
+                            <td>Paris</td>
+                            <td>Café à 10 Euros</td>
+                            <td>Jambon beurre à 20 Euros</td>
+                        </tr>
+                    </tbody>
+                </thead>
+            </table>
+        </div>
+
+        <hr>
+        
+        <!-- Tableau 2 -->
+        <div id="table2">
+            <table>
+                <caption>Les spécialités culinaires par ville</caption>
+                <thead>
+                    <tr>
+                        <th>Ville</th>
+                        <th>Spécialités</th>
+                        <th>Ingrédients principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Toulouse</td>
+                        <td>Cassoulet</td>
+                        <td>Flageolet</td>
+                    </tr>
+                    <tr>
+                        <td>Jambon</td>
+                        <td>Cochon</td>
+                    </tr>
+                    <tr>
+                        <td>Strasbourg</td>
+                        <td>Choucroute</td>
+                        <td>Chou</td>
+                    </tr>
+                    <tr>
+                        <td>Paris</td>
+                        <td>Café à 10 Euros</td>
+                        <td>Mauvaise humeur du serveur</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

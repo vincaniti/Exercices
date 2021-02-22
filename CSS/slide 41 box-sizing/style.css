@@ -1,0 +1,30 @@
+div {
+    width: 500px;
+    background-color: rgb(41, 124, 41);
+    border :rgba(212, 80, 80, 0.87) solid 5px ;
+    border-radius: 1rem;
+}
+h2 {
+    width: 400px;
+    background-color: rgb(90, 88, 88);
+    border: rgb(67, 99, 76) solid 6px;
+    border-radius: 1rem;
+} 
+.para1 {
+    width: 500px;
+    border: solid rgb(156, 79, 79);
+    background-color: rgba(212, 80, 80, 0.87);
+    padding: 15px;
+    border-radius: 1rem;
+}
+.para2 {
+    width: 500px;
+    border: rgb(72, 72, 114) dashed 6px;
+    background-color: rgb(105, 105, 207);
+    margin: 15px;
+    border-radius: 1rem;
+}
+.box {
+    box-sizing: border-box;
+    border-radius: 1rem;
+}

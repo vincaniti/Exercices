@@ -1,0 +1,31 @@
+#div1 {
+    border: solid red;
+    background-color: lightcoral;
+    /* float: left; */
+}
+
+#div2 {
+    border: solid blue;
+    background-color: lightblue;
+    /* clear: both; */
+    /* float: right; */
+}
+
+h4 {
+    /* float: left; */
+    margin: 0;
+    background-color: lightgreen;
+}
+
+
+.float {
+    width: 60px;
+    height: 60px;
+    background: purple;
+    margin: 20px;
+    /* float: right; */
+}
+
+.clear {
+    clear: both;
+}

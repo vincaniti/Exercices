@@ -1,0 +1,23 @@
+body, div{
+    color: black;
+    background-color: lightgray;
+}
+p {
+    color: red;
+}
+body > p {
+    font-weight: bold;
+    color: green;
+}
+h2 + p {
+    text-transform: uppercase;
+}
+code + p {
+    color: pink;
+}
+body > div {
+    background-color: yellow;
+}
+h1 + div {
+    border: 5px solid green;
+}

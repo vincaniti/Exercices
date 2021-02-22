@@ -1,0 +1,29 @@
+div {
+    width: 15rem;
+    height: 7rem;
+    margin: 0;
+}
+
+hr {
+    margin: 4rem 0;
+    padding: 0.1rem;
+    background-color: black;
+}
+
+.conteneur1 {
+    overflow: none;
+    background-color: lightblue;
+    border: solid blue;
+}
+
+.conteneur2 {
+    overflow: hidden;
+    background-color: lightgreen;
+    border: solid green;
+}
+
+.conteneur3 {
+    overflow: scroll;
+    background-color: rgb(252, 162, 162);
+    border: solid red;
+}

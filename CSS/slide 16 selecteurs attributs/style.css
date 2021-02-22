@@ -1,0 +1,7 @@
+a[target] {
+    color: lightgreen;
+    font-weight: bold;
+}
+a[target="_blank"]{
+    font-size: 3rem;
+}

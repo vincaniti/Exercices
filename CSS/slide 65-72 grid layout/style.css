@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0;
+    padding: 0px;
+}
+
+.grid {
+    height: 100%;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 20% 65% 15%;
+    grid-template-areas:
+        "header header header header header header header header"
+        "main main main main main  . sidebar sidebar"
+        "footer footer footer footer footer footer footer footer ";
+    grid-gap: 10px;
+    justify-items: stretch;
+}
+
+.item {
+    border: 1px solid purple;
+    background-color: lightcoral;
+
+}
+
+.item-a {
+    grid-area: header;
+}
+
+.item-b {
+    grid-area: main;
+}
+
+.item-c {
+    grid-area: sidebar;
+}
+
+.item-d {
+    grid-area: footer;
+}

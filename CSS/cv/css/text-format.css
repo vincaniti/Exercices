@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans&display=swap');
+h1,h2 {
+    font-family: 'Abel', sans-serif;   
+}
+p, a {
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,22 @@
+header{
+    height: 120px;
+    display : flex;
+    justify-content: center;
+}
+#titre {
+    margin: 25px 25px 25px 25px;
+    /* text-align: center; */
+}
+nav.li {
+    display: inline;
+}
+#liennav {
+    padding: 8px;
+    color: rgb(236, 22, 22);
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}

@@ -1,0 +1,18 @@
+.conteneur1 {
+    width: 25rem;
+    margin: 15px auto 50px auto;
+    background-color: lightblue;
+    border: solid blue;
+}
+
+.conteneur2 {
+    background-color: lightgreen;
+    border: solid green;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+}
+
+div p {
+    padding: 7px;
+}

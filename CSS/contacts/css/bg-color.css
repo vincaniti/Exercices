@@ -1,0 +1,11 @@
+.bg-light {
+    background: rgb(233, 233, 233);
+    color :  rgb(37, 37, 37);
+}
+.bg-dark {
+    background: rgb(37, 37, 37);
+    color: lightgrey;
+}
+.bg-black {
+    background: #000;
+}

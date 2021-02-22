@@ -1,0 +1,13 @@
+div {
+    background-color: aqua;
+}
+
+p {
+    background-color: lightgreen;
+    display: inline;
+}
+
+span {
+    display: block;
+    background-color: red;
+}
