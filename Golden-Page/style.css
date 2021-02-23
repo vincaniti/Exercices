@@ -1,7 +1,7 @@
 @import url("/Golden-Page/font/font-style.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("/Golden-Page/CSS/general.css");
-
+@import url("/Golden-Page/CSS/sprite.css");
 
 
 /* ****** Variables ****** */
@@ -11,6 +11,9 @@
 /* ****** GENERAL ******  */
 a {
     text-decoration: none;
+    
+}
+ul {
     list-style: none;
 }
 .button button {
@@ -40,6 +43,9 @@ div.section-title h4 {
     color: rgb(119, 119, 119);
     font-weight: 200;
     font-size: 1rem;
+}
+section#services {
+    padding : auto 30rem;
 }
 /* ****** HEADER ****** */
 header {
@@ -85,11 +91,12 @@ header section#welcome #intro p {
 main section#services .content {
    display: flex;
    justify-content: space-around;
+   flex-wrap: wrap;
    margin : 5rem 10rem;
 }
 main section#services .item  {
     text-align: center;
-    width: 30rem;
+    width: 20rem;
     margin : 0;
 }
 /* FIXME = bordure ecrase l'image */
@@ -113,13 +120,81 @@ main section#portfolio div#portfolio-content .line .client {
     text-align: center;
 }
 main section#portfolio div#portfolio-content .line .client img {
-    width: 30rem; 
-    height: 30rem; 
+    width: 15rem; 
+    height: 15rem; 
     object-fit: cover;
 }
+/* --- TEAM --- */
 main section#team div#team-mates {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+main section#team #team-mates .mate {
+    text-align: center;
+}
+main section#team #team-mates .mate span.photo-mate {
+    height: 12rem;
+    width: 12rem;
+    background-color: black;
+    border-radius: 50%;
+    margin: 2rem;
+}
+main section#team .p-text {
+    padding : 3rem 20rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+/* --- SKILLS --- */
+main section#skills {
+    display: flex ;
+    justify-content: center;
+    padding : 3rem;
+}
+main section#skills div img {
+    margin-right: 2rem;
+}
+/* --- CONTACTS --- */
+main section#contacts {
+    background-image: url(../Golden-Page/img/map_contact.png);
+    padding-bottom: 6rem;
+}
+main section#contacts .section-title {
+    color: white;
+}
+main section#contacts form {
+    text-align: center;
+}
+main section#contacts form .form-content {
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section#contacts form .form-content .form-infos input {
+    width: 23rem;
+    height: 2.2rem;
+    margin-right: 1.8rem;
+    margin-bottom: 1.2rem;
+    border-radius: 5px ;
+}
+main section#contacts form .form-content .form-comment textarea {
+    width: 23rem;
+    height: 9.6rem;
+    margin-right: 1.8rem;
+    margin-bottom: 1.2rem;
+    border-radius: 5px ;
+}
 /* ****** FOOTER ****** */
+footer #footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+footer #footer div.social-link {
+    margin-left: 5rem;
+}
+footer #footer .social-link a {
+    filter: invert(0);
+    background-color: black;
+}

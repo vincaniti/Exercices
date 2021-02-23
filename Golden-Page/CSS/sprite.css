@@ -1,0 +1,30 @@
+.social-link a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(1);
+}
+.social-link a:last-child {
+    margin-right: 0;
+}
+.social-link a span {
+    display: none;
+}
+
+.social-link .twitter {
+    background-image: url("../img/Twitter.png");
+}
+.social-link .facebook {
+    background-image: url("../img/facebook.png");
+}
+.social-link .pinterest {
+    background-image: url("../img/Pinterest.png");
+}
+.social-link .google {
+    background-image: url("../img/Google+.png");
+}
