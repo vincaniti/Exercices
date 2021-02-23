@@ -5,9 +5,7 @@
 
 
 /* ****** Variables ****** */
-:root {
-}
-    
+
 /* ****** GENERAL ******  */
 a {
     text-decoration: none;
@@ -109,6 +107,9 @@ main section#services .item h5 {
     font-size: 1.3rem;
 }
 /* --- PORTFOLIO --- */
+main section#portfolio {
+    padding-bottom: 5rem;
+}
 main section#portfolio div#portfolio-content .line {
     display: flex;
     justify-content: center;
@@ -197,4 +198,16 @@ footer #footer div.social-link {
 footer #footer .social-link a {
     filter: invert(0);
     background-color: black;
+}
+footer #footer .social-link a.twitter:hover {
+    background-color: #1C9CEA;
+}
+footer #footer .social-link a.facebook:hover {
+    background-color: #4064AC;
+}
+footer #footer .social-link a.google:hover {
+    background-color: #D54836;
+}
+footer #footer .social-link a.pinterest:hover {
+    background-color: #E11534 ;
 }

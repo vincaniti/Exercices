@@ -7,6 +7,7 @@
     margin-right: 1rem;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgb(41, 37, 37);
     filter: invert(1);
 }
 .social-link a:last-child {
@@ -27,4 +28,24 @@
 }
 .social-link .google {
     background-image: url("../img/Google+.png");
+}
+.social-link .twitter:hover{
+    background-color: #1C9CEA ;
+    filter: invert(0);
+    border: 3px black solid;   
+}
+.social-link .facebook:hover{
+    background-color: #4064AC ;
+    filter: invert(0);
+    border: 3px black solid;   
+}
+.social-link .pinterest:hover{
+    background-color: #E11534 ;
+    filter: invert(0);
+    border: 3px black solid;   
+}
+.social-link .google:hover{
+    background-color: #D54836 ;
+    filter: invert(0);
+    border: 3px black solid;   
 }
