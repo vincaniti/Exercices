@@ -1,0 +1,29 @@
+.wrapper {
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+}
+
+.text {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+.wide {
+    grid-column: auto / span 2;
+}
+
+
+@media (max-width: 960px) {
+     .wrapper {
+         grid-template-columns: 1fr 1fr;
+     } 
+
+    .text {
+         grid-column: 1 / 3;
+     }
+ }	
+
+ 

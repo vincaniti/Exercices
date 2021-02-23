@@ -1,0 +1,28 @@
+/* **** IMPORT **** */
+/* -- FONT -- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+/* -- RESET CSS -- */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+/* **** VARIABLES **** */
+:root {
+    --title-color : #7F7F7F ;
+    --paragraph-color : #BDBCBC;
+    --bg-color : #F2F1F0;
+}
+
+/* **** GENERALITES **** */
+header, main {
+    margin: 0;
+    padding: 1.2rem 8rem;
+}
+.bg-grey {
+    background-color: var(--bg-color);
+}
+.film {
+    background-color: white;
+    border : solid var(--paragraph-color) 2px;
+    border-radius: 5px ;
+}

@@ -1,0 +1,37 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr [gutter] repeat(16, [col] 4.25fr [gutter] 1fr);
+    grid-template-rows: repeat(9, [row] auto [gutter] 20px);
+  }
+
+
+
+  .header {
+    grid-column: col / span gutter 16;
+    grid-row: row / span 1;
+  }
+
+  .side1 {
+    grid-column: col / span gutter 4;
+    grid-row: row 2 / span 1;
+    height: 100%;
+  }
+
+  .content {
+    grid-column: col 5 / span gutter 8;
+    grid-row: row 2 / span 1;
+    height: 100%;
+  }
+
+  .side2 {
+    grid-column: col 13 / span gutter 4;
+    grid-row: row 2 / span 1;
+    height: 100%;
+  }
+
+  .footer {
+    grid-column: col / span gutter 16;
+    grid-row: row 3 / span 1;
+  }
