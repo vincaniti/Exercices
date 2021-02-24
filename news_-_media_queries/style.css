@@ -1,0 +1,110 @@
+body {
+    background: #000 url(img/bg_body.jpg) center top repeat-x fixed;
+    color: #333;
+    font: 75% Arial, sans-serif;
+    line-height: normal;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #644C40;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: white;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+}
+
+::selection {
+    background: #DE564B;
+    color: #fff;
+}
+
+
+.entry_preview {
+    width: 140px;
+    float: left;
+    margin: 0 20px 0 0;
+    /* display: inline; */
+    padding-bottom: 20px;
+    overflow: hidden;
+    border-bottom: none;
+    height: auto !important;
+}
+
+
+.entry_preview .thumb,
+.entry_preview img {
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+    border-bottom: #666 dotted 1px;
+    width: 140px;
+}
+
+.entry_preview .title {
+    color: #000;
+    font-weight: bold;
+}
+
+.ribbon span,
+#sidebar h4 span {
+    padding: 0.1em 20px 0.1em 25px;
+    color: #fff;
+    text-shadow: 0 -1px 0 #ab2e1a;
+    border-bottom: #ab2e1a solid 1px;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    text-transform: lowercase;
+    background: #dc523d;
+}
+
+a.more {
+    text-transform: lowercase;
+    color: #DE564B;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 800px) {
+    #main {
+        width: auto;
+    }
+    section.article {
+        display: flex;
+        flex-direction: column;
+    }
+    .entry_preview {
+        width: auto;
+        height: auto;
+        float: none;
+        display: block;
+        border-bottom: #666 dotted 1px;
+        margin-bottom: 20px;
+    }
+    .entry_preview .thumb {
+        float: left;
+        max-width: 50%;
+        border-bottom: #666 dotted 1px ;
+    }
+    .entry_preview .thumb,
+    .entry_preview img {
+        margin-bottom: 5px;
+        padding-bottom: 8px;
+        border-bottom: none;
+}
+}
