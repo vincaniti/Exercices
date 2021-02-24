@@ -21,8 +21,70 @@ header, main {
 .bg-grey {
     background-color: var(--bg-color);
 }
+span {
+    display: inline-block;
+}
+/* --- FICHE FILM --- */
 .film {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border : solid var(--paragraph-color) 2px;
     border-radius: 5px ;
+    width: 100%;
+    height: max-content;
+}
+.film img {
+    width: 100%;
+}
+.film .descr {
+    padding : 1rem ;
+}
+.film h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--title-color);
+}
+.film h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--paragraph-color);
+}
+.film h3 .location {
+    background-image: url('./img/logos/location.png');
+    width: 9px;
+    height: 12px;
+}
+.film .descr p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--paragraph-color);
+}
+.film .descr .quote .star {
+    background-image: url('./img/icons/star_grey.png');
+    height: 18px;
+    width: 18px;
+}
+.film .descr .quote .star-green {
+    background-image: url('../pinball-grid/img/icons/star_green.png')!important;
+    height: 18px;
+    width: 18px;
+}
+/* FIXME  */
+.film .descr .quote .facebook {
+    background-image: url('./img/logos/facebook.png');
+    background-color: grey;
+    border-radius: 50%;
+}
+
+/* **** GRID **** */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 2rem;
+    grid-template-rows: subgrid;
+}
+.horse {
+    grid-row: auto / span 3;
+}
+.rebelle, .raiponce {
+    grid-row: auto / span 1 ;
+}
+.man {
+    grid-row: auto / span 2;
 }
