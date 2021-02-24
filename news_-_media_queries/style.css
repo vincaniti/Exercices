@@ -100,11 +100,12 @@ a.more {
         float: left;
         max-width: 50%;
         border-bottom: #666 dotted 1px ;
+        margin-right: 1rem;
     }
     .entry_preview .thumb,
     .entry_preview img {
         margin-bottom: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 5px;
         border-bottom: none;
 }
 }
