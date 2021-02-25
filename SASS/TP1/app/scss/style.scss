@@ -10,12 +10,12 @@
  $borders: $padding * 3;
 
 
- $desktop: 840px; //breakpoint for desktop view
+ $desktop: 1200px; //breakpoint for desktop view
 
  @mixin desktop {
 
      // creating a desktop view
-     @media (min-width: 1200px) {
+     @media (min-width: $desktop) {
          @content;
      }
  }
