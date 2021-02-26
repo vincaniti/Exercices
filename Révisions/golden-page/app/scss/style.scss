@@ -1,0 +1,111 @@
+@import "../../node_modules/normalize-scss/sass/normalize" ; 
+@import "variable";
+@import "color" ;
+@import "font";
+@import "bloc";
+@import "components/btn";
+@import "components/form";
+@import "navbar";
+@import "social";
+
+// **** HEADER ****
+#header {
+    padding-top: $padding-xsmall;
+    #logo-golden {
+        font-size: 2rem;
+        color: $yellow;
+    }
+    #navbar {
+        padding: $padding-xsmall $padding-xsmall;
+    }
+    .title {
+        margin-top : 15%;
+        h1, h2 {
+            color: white;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        h2 {
+            font-size: 4rem;
+            text-transform: uppercase;
+        }
+        .btn {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .btn:hover {
+            color:$yellow;
+            background-color: white;
+            cursor: pointer;
+            border: none;
+        }
+    }
+}
+// *** SERVICES ***
+#services {
+    .services-item {
+        .border {
+            display: inline-block;
+            border : solid 2px $yellow;
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+        }
+        .icon {
+            display: inline-block;
+            align-content: center;
+            width: 40px;
+            height: 39px;
+            margin-top: 10px;
+            &.basket {
+                background-image: url("img/icon/basket.png");
+            }
+            &.desktop {
+                background-image: url("img/icon/desktop.png");
+            }
+            &.lock {
+                background-image: url("img/icon/lock.png");
+                width: 29px;
+                height: 38px;
+            }
+        }
+    }
+}
+// *** TEAM ***
+#team {
+    .mate-photo {
+        display: inline-block;
+        height: 12rem;
+        width: 12rem;
+        background-color: black;
+        border-radius: 50%;
+    }
+    p {
+        padding-top: $padding-small;
+    }
+}
+
+// *** CONTACT *** //
+#contact {
+    #form {
+        .infos, .message {
+            width: 45%;
+        }
+        input {
+            text-transform: uppercase;
+            height: 25%;
+            margin-bottom: 1.85%;
+        }
+        textarea {
+            width: 100%;
+            text-transform: uppercase;
+            padding-left : $padding-small;
+            padding-top: $padding-small
+        }
+        .btn {
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+#footer {
+    div a {
+        display: none;
+    }
+    .facebook {
+        display: inline-block;
+        width: 10px;
+        height: 18px;
+        background-image: url("img/Social/facebook.png");
+        filter: invert(1);
+    }
+    .border {
+        height: 150px;
+        width: 150px;
+        border: black solid 2px;
+        border-radius: 50%;
+    }
+}

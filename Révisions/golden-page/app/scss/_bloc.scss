@@ -1,0 +1,74 @@
+/* *** MISE EN PAGE GENERAL *** */
+/* BODY */
+body {
+    margin: 0;
+}
+p {
+    color: $grey-ft;
+    font-size: 0.8rem;
+}
+// MAIN
+main {
+    margin: 0;
+    padding-right: $padding-xlarge;
+    padding: $padding-xlarge;
+    text-align: center;
+    padding: 0;
+}
+section, header, footer {
+    padding : $padding-large $padding-xxlarge ;
+}
+// HEADER
+#header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/bg-top.png");
+    height: 100vh;
+    text-align: center;
+}
+
+//  H3-H4
+.sub-title {
+    text-transform: uppercase;
+    h3 {
+        font-size: 2rem;
+        margin:0;
+    }
+    h4 {
+        font-style: italic;
+        color: $grey-ft;
+        font-size: 0.7rem;
+        margin-bottom: $margin;
+    }
+    &.light {
+        color: white;
+    }
+}
+// DISPOSITION FLEX
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    &.flex > div {
+        margin: $margin-xsmall;
+    }
+    &.services-item > div {
+        width: 25%;
+    }
+    &#team-mate > div {
+        margin: auto $margin;
+    }
+    &.infos {
+        flex-direction: column;
+    }
+    &.top {
+        justify-content: space-between;
+    }
+}
+// LOGOS
+#logos > img {
+    margin: auto $margin-small;
+}
+// FOOTER
+footer {
+    padding :0;
+}

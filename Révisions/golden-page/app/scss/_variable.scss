@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Roboto:ital,wght@0,300;1,300&display=swap');
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+/* **** FONT **** */
+$ft-mont : 'Montserrat', sans-serif;
+$ft-robo : 'Roboto', sans-serif;
+
+// **** COLOR ****
+$lightgrey : #F7F7F7;
+$dark : #212121;
+$yellow: #FDD135;
+$grey-ft: #A6A6A6;
+
+//PADDING MARGIN   
+$padding : 2rem; 
+$padding-xsmall : $padding / 3;
+$padding-small : $padding / 2 ;
+$padding-large : $padding * 2 ;
+$padding-xlarge : $padding * 3 ;
+$padding-xxlarge : $padding * 4 ;
+
+$margin : 3rem;
+$margin-xsmall : $margin / 3;
+$margin-small : $margin / 2 ;
+$margin-large : $margin * 2 ;
+$margin-xlarge : $margin * 3 ;
+

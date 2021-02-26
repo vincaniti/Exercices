@@ -1,0 +1,9 @@
+.btn {
+    padding: $padding-small $padding;
+    border: none;
+    border-radius: 3px;
+    &.yellow {
+    background-color: $yellow;
+    color: white;
+    }
+}

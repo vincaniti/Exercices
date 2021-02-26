@@ -1,0 +1,15 @@
+#navbar {
+    ul li {  
+        list-style: none;
+        margin-right: $padding-xsmall;
+        text-transform: uppercase;
+    }
+    ul a {
+        text-decoration: none;
+        color: $grey-ft;
+    }
+    ul a:hover {
+        color: $yellow;
+    }
+    
+}
